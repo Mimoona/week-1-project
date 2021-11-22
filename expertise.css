@@ -1,0 +1,93 @@
+.play {
+    position: relative; 
+    display: flex;
+  height: 60vh;
+  justify-content: center;
+  align-items: center;
+    
+} 
+
+.background {
+  background-image: url("./2/bgk-middle.png"); 
+  height: inherit;
+  width: 100%;
+  position: absolute;
+  background-position: center;
+  background-size: cover;
+  z-index: -1;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#yt {
+  padding-bottom: 1.5rem;
+  padding-left: 0.875rem;
+  transition: transform 500ms;  
+} 
+
+#watch {
+    color: white;
+    font-size: 10px;
+    position:absolute;
+    padding-bottom: 1.5rem;
+     padding-left: 0.4rem;
+    transition: transform 500ms;
+    font-family: 'Roboto', sans-serif; 
+} 
+
+  
+
+
+.expertise {
+    flex-direction: column;
+  
+}
+.expertise h1 {
+   font-family: 'Playfair Display', serif; 
+}
+
+.grid{
+    width: 60%;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 50% 50%; 
+    margin: 20px auto;
+    
+}
+.gridPic{
+    display: flex;
+    justify-items: center;
+    padding-bottom: 20px;
+    padding-top: 30px;
+}
+
+.gridDiv{
+  
+    
+}
+
+.gridDiv h2 {
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    
+}
+
+.grid p {
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(56, 54, 54);
+    padding: 10px 30px;
+    
+}
+
+.gridDiv1 {
+    border-bottom: solid rgb(224, 224, 224) 0.3px;  
+}
+
+.gridDiv2 {
+    border-right: solid rgb(224, 224, 224) 0.3px; 
+    border-left: solid rgb(224, 224, 224) 0.3px; 
+    
+}

@@ -1,0 +1,179 @@
+/* Fonts: Roboto Black
+PlayfairDisplay Black
+Roboto Light
+HammersmithOne Regular
+Roboto Thin
+PlayfairDisplay Bold */
+
+
+
+html {
+    margin: 0px;
+  }
+  body {
+    margin: 0px;
+    border: 0px;
+    box-sizing: border-box;
+  }
+  
+  
+  
+  
+  /* THE HEADER */
+  .header {
+    font-family: Helvetica, sans-serif;
+    display: block;
+    background: url("images/bgk-header.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 700px;
+  }
+  .upper {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin: 0 auto;
+  }
+  .logo-tajam {
+    display: inline;
+    align-items: center;
+  }
+  .logo {
+    padding-top: 10px;
+    display: inline-block;
+  }
+  .tajam {
+    display: inline-block;
+    padding-top: 17px;
+    padding-left: 3px;
+    font-size: 28px;
+    font-weight: 100;
+    vertical-align: top;
+    color: rgb(80, 170, 171);
+  }
+  .menu {
+    list-style-type: none;
+    display: inline-flex;
+    justify-content: space-around;
+    align-content: center;
+    width: 70%;
+    padding-top: 5px;
+  }
+  .menu li {
+    padding: 5px;
+    text-align: center;
+    font-size: 12px;
+    display: inline;
+  }
+  .menu a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  .menu a:hover {
+    color: rgb(80, 170, 171);
+  }
+  .awesome {
+    margin-top: 140px;
+    text-align: center;
+    font-family: 'Playfair Display', serif; 
+    color: white;
+  
+  }
+  .awesome p {
+    line-height: 1.5;
+    font-weight: 200;
+    font-size: 16px;
+    width: 60%;
+    margin: 20px auto;
+    font-family: 'Roboto Light', sans-serif;
+  }
+  .awesome hr {
+    border: 1px solid rgb(80, 170, 171);
+    width: 5%;
+  }
+  .button {
+    display: block;
+    width: 100px;
+    border: 1px  solid rgb(80, 170, 171);
+    border-radius: 3px;
+    margin: 50px auto;
+    padding: 10px 10px;
+  
+  
+  
+  
+  
+  }
+  .learn {
+    color: rgb(80, 170, 171);
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif; 
+
+  }
+  .button:hover {
+    border-color: white;
+  }
+  .learn:hover {
+    color: white;
+  }
+  
+  
+  
+  /* THE 'OUR STORY' */
+  .story-block-frame {
+    display: block;
+  }
+  .story {
+    display: flex;
+    width: 60%;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto;
+  }
+  .our-story {
+    display: block;
+    width: 80%;
+  }
+  .our-story h2 {
+    font-family: 'Playfair Display', serif; 
+  }
+  .our-story p {
+    font-family: 'Roboto Light', sans-serif;
+  }
+  .big-logo {
+    width: 20%;
+    padding: 80px;
+  }
+  .big-logo-image {
+    width: 200px;
+  }
+  .button-2 {
+    display: block;
+    width: 100px;
+    border: 1px  solid rgb(80, 170, 171);
+    border-radius: 3px;
+    padding: 10px 10px;
+    text-align: left;
+    margin-top: 50px;
+  }
+  .button-2:hover {
+    border-color: gray;
+  }
+  .learn-2 {
+    color: rgb(80, 170, 171);
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif; 
+
+  }
+  .learn-2:hover {
+    color: gray;
+  }
+  
